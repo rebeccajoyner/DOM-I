@@ -48,3 +48,7 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 
 let largeImg = document.getElementById("mid-page-accent");
 largeImg.setAttribute('src', siteContent["main-content"]["img-src"])
+
+
+const navA = document.getElementsByTagName('a');
+navA[0].textContent = siteContent["nav"]["nav-item-1"]
