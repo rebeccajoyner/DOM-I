@@ -89,6 +89,8 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: mediumturquoise;
     color: black;
 }
 
